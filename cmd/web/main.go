@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/jjboardman/bookings/pkg/config"
-	"github.com/jjboardman/bookings/pkg/handlers"
-	"github.com/jjboardman/bookings/pkg/render"
+	"github.com/jjboardman/bookings/internal/config"
+	"github.com/jjboardman/bookings/internal/handlers"
+	"github.com/jjboardman/bookings/internal/render"
 )
 
-const portNumber = ":8080"
+const portNumber = ":8081"
 
 var app config.AppConfig
 
